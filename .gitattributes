@@ -52,3 +52,63 @@
 *.ttf binary
 *.woff binary
 *.woff2 binary
+
+# =========================
+# SISTEMA / WINDOWS
+# =========================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# =========================
+# VISUAL STUDIO CODE
+# =========================
+.vscode/
+.history/
+*.code-workspace
+
+# =========================
+# NODE / JAVASCRIPT
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+
+# =========================
+# DOTNET / C#
+# =========================
+*.dll
+*.exe
+*.pdb
+*.cache
+*.config
+*.bak
+*.log
+*.vs/
+bin/
+obj/
+.dotnet/
+
+# =========================
+# SISTEMAS DE BUILD / TEMP
+# =========================
+dist/
+build/
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+
+# =========================
+# AMBIENTE
+# =========================
+.env
+.env.*.local
+

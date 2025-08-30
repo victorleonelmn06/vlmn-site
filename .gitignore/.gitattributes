@@ -4,3 +4,58 @@
 *.css text eol=lf
 *.js text eol=lf
 *.md text eol=lf
+
+# -----------------------------
+# Configuração geral
+# -----------------------------
+
+# Normaliza todos os arquivos de texto para LF no repositório
+* text=auto eol=lf
+
+# -----------------------------
+# Arquivos Web
+# -----------------------------
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.jsx text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.xml text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# -----------------------------
+# Arquivos de configuração
+# -----------------------------
+*.sh text eol=lf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+*.env text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# -----------------------------
+# Arquivos binários (não mexer em EOL)
+# -----------------------------
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg text eol=lf
+*.webp binary
+*.pdf binary
+*.zip binary
+*.tar binary
+*.gz binary
+
+# -----------------------------
+# Fontes
+# -----------------------------
+*.eot binary
+*.ttf binary
+*.woff binary
+*.woff2 binary

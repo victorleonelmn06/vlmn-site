@@ -1,0 +1,46 @@
+# ======================
+# Node / NPM
+# ======================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ======================
+# VSCode / IDE
+# ======================
+.vscode/
+*.code-workspace
+
+# ======================
+# Sistema Operacional
+# ======================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# ======================
+# Logs
+# ======================
+*.log
+*.out
+*.pid
+*.seed
+*.gz
+
+# ======================
+# Builds / Cache
+# ======================
+dist/
+build/
+.cache/
+tmp/
+temp/
+
+# ======================
+# Outros
+# ======================
+*.swp
+*.swo
