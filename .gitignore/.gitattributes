@@ -1,0 +1,6 @@
+# Força o Git a lidar corretamente com finais de linha
+* text=auto
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.md text eol=lf
