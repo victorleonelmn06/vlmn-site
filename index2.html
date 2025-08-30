@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VLMN Performance</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #111;
+      color: #fff;
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+
+    header img {
+      height: 50px;
+    }
+
+    header h1 {
+      font-size: 1.5rem;
+      margin: 0;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 1rem;
+      color: #111;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .card {
+      background: #fff;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    form {
+      background: #fff;
+      padding: 2rem;
+      margin-top: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    form input, form textarea, form button {
+      width: 100%;
+      padding: 0.8rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1rem;
+    }
+
+    form button {
+      background: #0f9d58;
+      color: #fff;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    form button:hover {
+      background: #0c7c46;
+    }
+
+    footer {
+      background: #111;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 3rem;
+    }
+
+    footer img {
+      height: 40px;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="vlm.png" alt="VLMN Performance">
+    <h1>VLMN Performance</h1>
+  </header>
+
+  <div class="container">
+    <h2>O Método Levantamento</h2>
+    <p style="text-align:center; max-width: 800px; margin: 0 auto;">
+      Estratégia, suporte e evolução constante para elevar o seu negócio e transformar anúncios em resultados reais.
+    </p>
+
+    <div class="cards">
+      <div class="card">
+        <h3>📈 Crescimento</h3>
+        <p>Campanhas otimizadas que transformam investimento em retorno real.</p>
+      </div>
+      <div class="card">
+        <h3>🤝 Suporte</h3>
+        <p>Acompanhamento próximo para que você saiba onde cada centavo está sendo investido.</p>
+      </div>
+      <div class="card">
+        <h3>🎯 Clareza</h3>
+        <p>Relatórios simples e objetivos, sem métricas de vaidade.</p>
+      </div>
+    </div>
+
+    <form action="https://api.whatsapp.com/send?phone=5566981162135&text=Olá,%20quero%20saber%20mais%20sobre%20a%20VLMN%20Performance!" method="get" target="_blank">
+      <h2>Fale Conosco</h2>
+      <input type="text" name="nome" placeholder="Seu nome" required>
+      <input type="email" name="email" placeholder="Seu e-mail" required>
+      <button type="submit">Enviar pelo WhatsApp</button>
+    </form>
+  </div>
+
+  <footer>
+    <img src="vlm.png" alt="VLMN Performance ">
+    <p>© 2025 VLMN Performance. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
